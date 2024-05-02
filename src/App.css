@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-slide {
+    margin: .2em;
+}
+
+.text-container {
+    display: -webkit-box; /* Flexbox untuk menampilkan dua baris */
+    -webkit-line-clamp: 2; /* Menentukan jumlah baris yang ditampilkan */
+    -webkit-box-orient: vertical; /* Menampilkan teks secara vertikal */
+    overflow: hidden; /* Menyembunyikan teks yang melebihi dua baris */
+    text-overflow: ellipsis; /* Menampilkan titik-titik (...) pada teks yang terlalu panjang */
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  
